@@ -1,2 +1,5 @@
-# npe-pf
-This will become the public repo for the NPE-PF paper once it is preprinted.
+# Neural Posterior Estimation with Prior-data Fitted Networks
+
+🚧 Work in Progress 🚧
+
+Code and documentation will be added soon!
