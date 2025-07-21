@@ -11,7 +11,7 @@ In this implementation, [TabPFNv2](https://github.com/PriorLabs/TabPFN) is used 
 Clone the repository and install with pip:
 
 ```bash
-git clone https://github.com/mackelab/npe_pf
+git clone https://github.com/mackelab/npe-pf
 cd npe_pf
 pip install -e .
 ```
