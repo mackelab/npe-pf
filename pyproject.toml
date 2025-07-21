@@ -1,0 +1,39 @@
+[project]
+name = "npe_pf"
+version = "0.1.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.dependencies]
+# Add new dependencies here
+python = ">=3.10,<3.14"
+jupyter = "^1.0.0"
+torch = "~2.6.0"
+sbi = "~0.23.0"
+tabpfn = "^2.0.0"
+
+[tool.poetry.dev-dependencies]
+ruff = "^0.0.289"
+pytest = "^8.0.0"
+
+[tool.poetry]
+name = "npe_pf"
+version = "0.1.0"
+description = "Effortless, Simulation-Efficient Bayesian Inference using Tabular Foundation Models"
+authors = ["Julius Vetter <julius.vetter@uni-tuebingen.de>",
+           "Manuel Gloeckler <manuel.gloeckler@uni-tuebingen.de>",
+           "Daniel Gedon <daniel.gedon@uni-tuebingen.de>"]
+license = "Prior Labs License 1.1"
+readme = "README.md"
+repository = "https://github.com/mackelab/npe-pf"
+keywords = ["bayesian-inference", "tabpfn", "sbi"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: Prior Labs License 1.1",
+    "Operating System :: OS Independent",
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence"
+]
