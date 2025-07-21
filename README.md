@@ -12,7 +12,7 @@ Clone the repository and install with pip:
 
 ```bash
 git clone https://github.com/mackelab/npe-pf
-cd npe_pf
+cd npe-pf
 pip install -e .
 ```
 
